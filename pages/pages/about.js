@@ -6,7 +6,7 @@ export default function About() {
       {/* Header */}
       <header className="p-4 bg-white">
         <div className="container mx-auto flex items-center justify-between">
-          <img
+          <image
             src="/download%20(1).png"
             alt="Download"
             className="h-18 w-auto transform hover:rotate-180 transition duration-500 ease-in-out"
@@ -84,4 +84,3 @@ export default function About() {
     </div>
   );
 }
-    
