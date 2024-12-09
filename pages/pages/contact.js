@@ -66,7 +66,7 @@ export default function Contact() {
           Contact Us
         </h2>
         <p className="text-lg leading-relaxed mb-8">
-          We’d love to hear from you! Whether you have questions, feedback, or
+          We&apos;d love to hear from you! Whether you have questions, feedback, or
           just want to say hello, feel free to reach out.
         </p>
         <a
