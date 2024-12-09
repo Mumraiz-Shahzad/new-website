@@ -1,23 +1,15 @@
 // pages/index.js
 import React from 'react';
+import Link from 'next/link'; // Ensure to import Link from Next.js
 
 const Home = () => {
-  return (
-    <div>
-      <h1>Welcome to My Website</h1>
-      {/* Your website content */}
-    </div>
-  );
-};
-
-export default function Home() {
   return (
     <div className="bg-white">
       {/* Header */}
       <header className="p-4 bg-white">
         <div className="container mx-auto flex items-center justify-between">
-          <image
-            src="/download%20(1).png"
+          <img
+            src="/download%20(1).png" // Use <img> instead of <image> tag
             alt="Download"
             className="h-18 w-auto transform hover:rotate-180 transition duration-500 ease-in-out"
           />
@@ -95,4 +87,6 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default Home;
