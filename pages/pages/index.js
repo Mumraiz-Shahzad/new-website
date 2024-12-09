@@ -1,4 +1,14 @@
-import Link from "next/link";
+// pages/index.js
+import React from 'react';
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to My Website</h1>
+      {/* Your website content */}
+    </div>
+  );
+};
 
 export default function Home() {
   return (
